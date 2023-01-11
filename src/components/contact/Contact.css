@@ -1,0 +1,82 @@
+.contact{
+    background-color: #191919;
+}
+h1.hire__text {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+p.hire__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+    margin-left: 20px;
+}
+input.contact{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+.contact__img{
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.contact-right form{
+    width: 100%;
+}
+textarea#message{
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    line-height: 46px;
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: .1px;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+button.btn.contact.pointer {
+    margin: 20px 0px;
+    border: 1px solid #262626;
+}
+form input, form textarea{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    outline: none;
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    color: #262626; 
+    font-size: 18px;
+    border: 1px solid #262626;
+    border-radius: 6px;
+}
+textarea {	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+}
+form .btn-2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 500px;
+}
