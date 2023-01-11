@@ -14,7 +14,7 @@ import postmanImg from "../../img/postman.png"
 import netlifyImg from "../../img/netlify.png"
 import vsImg from "../../img/vscode.png"
 import pythonImg from "../../img/python.png"
-
+import mongoImg from "../../img/mongodb.png"
 
 
 function Skills() {
@@ -50,6 +50,10 @@ function Skills() {
           <div class="indivitual">
             <div class="tooltip">Python</div>
             <span><img src={pythonImg} alt="" /></span>
+          </div>
+          <div class="indivitual">
+            <div class="tooltip">MongoDB</div>
+            <span><img src={mongoImg} alt="" /></span>
           </div>
         </div>
       </div>
